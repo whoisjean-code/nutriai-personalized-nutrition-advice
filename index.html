@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NutriAI - Plataforma de inteligencia artificial para planes alimenticios adaptados a tus necesidades">
+    <title>NutriAI - Asesoramiento Nutricional Personalizado</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <h1>NutriAI</h1>
+                </div>
+                <div class="nav-menu">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#caracteristicas" class="nav-link">Características</a>
+                    <a href="#about" class="nav-link">Acerca de</a>
+                    <button class="chat-btn" id="openChatBtn">ChatAI</button>
+                </div>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">NutriAI</h1>
+                <p class="hero-subtitle">Plataforma de inteligencia artificial para planes alimenticios adaptados a tus necesidades</p>
+                
+                <div class="hero-highlight">
+                    <h2>Asesoramiento Nutricional Personalizado</h2>
+                </div>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Empezar ahora</button>
+                    <button class="btn btn-secondary">Ver características</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section id="about" class="welcome">
+        <div class="container">
+            <div class="welcome-content">
+                <div class="welcome-text">
+                    <h2>¡HOLA MUNDO!</h2>
+                    <h3>Bienvenido a NutriAI</h3>
+                    <p>¡Hola y bienvenido a nuestra plataforma de inteligencia artificial! En NutriAI, estamos dedicados a ofrecerte asesoramiento nutricional personalizado que se adapta a tus necesidades y objetivos.</p>
+                    <p>Nos alegra que estés aquí y esperamos que encuentres los recursos y herramientas que te ayudarán a alcanzar una alimentación más saludable. Comienza tu viaje hacia una mejor nutrición ahora mismo.</p>
+                    <p class="welcome-cta"><strong>¡Explora nuestras características y descubre cómo podemos ayudarte!</strong></p>
+                    <p class="date">mayo 19, 2025</p>
+                </div>
+                <div class="welcome-image">
+                    <img src="https://whoisjeanfyp9.wordpress.com/wp-content/uploads/2025/05/logo-transparent.png" alt="NutriAI Logo" class="logo-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <div class="quote-content">
+                <img src="https://whoisjeanfyp9.wordpress.com/wp-content/uploads/2025/05/pexels-photo-1640773.jpeg" alt="Alimentación saludable" class="quote-image">
+                <blockquote class="quote">
+                    «La alimentación saludable es la clave para un cuerpo y mente en equilibrio»
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Nutritionist Section -->
+    <section id="caracteristicas" class="ai-section">
+        <div class="container">
+            <div class="ai-content">
+                <div class="ai-image">
+                    <img src="https://whoisjeanfyp9.wordpress.com/wp-content/uploads/2025/05/nutricionista-alimenticio-4.png" alt="Nutricionista Artificial" class="ai-img">
+                </div>
+                <div class="ai-text">
+                    <h2>NUTRICIONISTA ARTIFICIAL</h2>
+                    <p>El uso de una IA nutricionista permite acceder a planes de alimentación personalizados, seguimiento continuo y consejos adaptados, mejorando así la salud y el bienestar de manera eficiente</p>
+                    <button class="btn btn-primary" id="startChatBtn">Consulta Nutricional</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>NutriAI</h3>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#about">Acerca de</a></li>
+                            <li><a href="#faq">Preguntas frecuentes</a></li>
+                            <li><a href="#authors">Autores</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="#events">Eventos</a></li>
+                            <li><a href="#store">Tienda</a></li>
+                            <li><a href="#sponsors">Patrones</a></li>
+                            <li><a href="#themes">Temas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>PÁGINA HECHA PARA LA TA4</p>
+                <div class="footer-legal">
+                    <button id="cookieBtn">Cerrar y aceptar</button>
+                    <p>Privacidad y cookies: este sitio utiliza cookies. Al continuar utilizando esta web, aceptas su uso.</p>
+                    <p>Para obtener más información, incluido cómo controlar las cookies, consulta aquí: <a href="#cookies">Política de cookies</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AI Chat Modal -->
+    <div id="chatModal" class="chat-modal">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>Consulta Nutricional AI</h3>
+                <button class="chat-close" id="closeChatBtn">&times;</button>
+            </div>
+            
+            <div class="chat-settings">
+                <button class="settings-toggle" id="settingsToggle">Configurar Sistema</button>
+                <div class="settings-panel" id="settingsPanel">
+                    <label for="systemPrompt">Prompt del Sistema:</label>
+                    <textarea id="systemPrompt" rows="4" placeholder="Personaliza las instrucciones para el AI..."></textarea>
+                    <button class="btn btn-small" id="saveSettings">Guardar</button>
+                </div>
+            </div>
+            
+            <div class="chat-messages" id="chatMessages">
+                <div class="message ai-message">
+                    <p>¡Hola! Soy tu asistente nutricional AI. ¿En qué puedo ayudarte hoy?</p>
+                </div>
+            </div>
+            
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Escribe tu consulta nutricional...">
+                <button class="btn btn-primary" id="sendBtn">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
